@@ -1,0 +1,33 @@
+
+.text-center{
+    text-align: center;
+}
+h1{
+    margin-top: 30px;
+}
+.grey{
+    color: black;
+    background-color: rgb(226, 219, 219);
+    border: 2px solid rgb(226, 219, 219);
+    
+}
+.orange{
+    color: white;
+    background-color: orange;
+    border: 2px solid orange;
+    
+
+}
+.darkgrey{
+    color: white;
+    background-color: rgb(122, 119, 119);
+    border: 2px solid rgb(122, 119, 119);
+
+}
+.bg{
+    background-color: black;
+    height: 440px;
+    width: 350px;
+    margin: auto;
+    border-radius: 5px;
+}

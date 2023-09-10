@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    color: black;
+    scroll-behavior: smooth;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(10, 54, 10);
+    height: 45px;
+    position: fixed;
+     width: 100vw;
+     top: 0px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 20px;
+    padding: 7px 9px;
+
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+}
+
+nav li a:hover {
+    font-weight: bolder;
+}
+
+.name {
+    font-size: 2rem;
+    font-family: 'Italianno', cursive;
+    color: white;
+}
+
+#homesection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 8vh 0;
+    margin-bottom: 0px;
+    height: 77vh;
+}
+
+#homesection>div {
+    width: 34%;
+}
+
+.info {
+    font-size: 2.2rem;
+}
+
+.pic img {
+    width: 80%;
+}
+
+.green {
+    color: rgb(84, 221, 84);
+    font-weight: bold;
+}
+
+.more {
+    font-size: 15.5px;
+    margin: 23px 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn {
+    padding: 8px 7px;
+    /* background-color: black; */
+    background-color: rgb(10, 54, 10);
+    outline: none;
+    border: 2px solid  rgb(10, 54, 10);
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 3px 3px;
+    cursor: pointer;
+    color: white;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+#skillsection {
+    max-width: 84vw;
+    margin: auto;
+    
+}
+h1{
+    margin-bottom: 23px;
+    font-size: 1.7rem;
+
+}
+
+.skill{
+   width: 275px;
+   height: 10px;
+   background-color: rgb(93, 203, 93);
+   border-radius: 3px;
+   margin: 8.5px 0;
+   
+}
+.skill1{
+    width: 260px;
+    height: 10px;
+    background-color: rgb(93, 203, 93);
+    border-radius: 3px;
+   margin: 8.5px 0;
+
+}
+.skill2{
+    width: 240px;
+    height: 10px;
+    background-color: rgb(93, 203, 93);
+    border-radius: 3px;
+   margin: 8.5px 0;
+
+}
+.skill3{
+    width: 240px;
+    height: 10px;
+    background-color: rgb(93, 203, 93);
+    border-radius: 3px;
+   margin: 8.5px 0;
+
+}
+.skill4{
+    width: 220px;
+    height: 10px;
+    background-color: rgb(93, 203, 93);
+    border-radius: 3px;
+   margin: 8.5px 0;
+
+}
+.p{
+  background-color:  rgb(117, 147, 117);
+  border-radius: 3px;
+  width: 290px;
+    
+}
+
+#projectsection{
+    width: 86vw;
+    margin: auto;
+    margin-top: 54px; 
+}
+#projectsection h1{
+    margin-bottom: 12px;
+    margin-left: 14px;
+}
+
+.box{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 4px;
+    width: 41%;
+    margin: 25px 35px;
+    height: 130px;
+    /* box-shadow: -7px -7px 7px rgb(93, 203, 93) ;  */
+    box-shadow: 7px 7px 7px rgb(93, 203, 93) ; 
+}
+.box:hover{
+    transform: scale(1.1);
+}
+.box img{
+    width: 20px;
+    height: 21px;
+    margin-top: 5px;
+}
+.image{
+    display: flex;
+    margin: 11px 7px;
+}
+
+h3 {
+    margin: 0 15px;
+}
+.center{
+    /* text-align: center; */
+    margin: 11px 11px;
+}
+#contactsection{
+    width: 86vw;
+    margin: auto;
+    margin-top: 30px; 
+    margin-bottom: 50px;
+}
+#contactsection h1{
+    margin-left: 12px;
+    margin-bottom: 14px;
+}
+h4{
+    margin-left: 12px;
+    margin-bottom: 30px;
+}
+#contactsection a{
+    text-decoration: none;
+    color: rgb(15, 15, 194);
+}
+.contact{
+    margin: 20px 12px;
+    font-size: 19px;
+}
+.email{
+    margin: 10px;
+    font-size: 16px;
+
+}
+.link{
+    margin: 12px;
+    font-size: 16px;
+
+}
+.git{
+    margin: 12px;
+    font-size: 16px;
+
+}
+.footer{
+    background-color: rgb(10, 54, 10);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    font-size: 14px;
+
+}
+
+
